@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ba888503209ed04ba7c2d07fde15246, type: 3}
+  m_Name: StartingState
+  m_EditorClassIdentifier: 
+  storyText: "Good morning, This is your first day being a God.\r\nDo you have any
+    plans?\n\n1. What are some fun things that you do here?\r\n2. I have an idea...\r\n3.
+    I'm sorry, Who are you again?"
+  nextStates:
+  - {fileID: 11400000, guid: d33a4377f4d991949aaaa083e031245a, type: 2}
+  - {fileID: 11400000, guid: d33a4377f4d991949aaaa083e031245a, type: 2}
+  - {fileID: 11400000, guid: 9632d1eb1166c7044a1a814edcf22da4, type: 2}
